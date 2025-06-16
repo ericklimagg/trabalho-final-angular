@@ -1,11 +1,3 @@
-Ah, entendi. Sem a lista, tudo em um bloco único. Corrigido.
-
-Aqui está a versão final do `README.md` com a seção de autores formatada em um único bloco, como solicitado.
-
------
-
-### README.md (Versão Final Agrupada)
-
 ```markdown
 # Trabalho Prático - Aplicação com Angular
 
@@ -119,8 +111,6 @@ ng test
 > André Roberto – RA: 240509842 \<br\>
 > Felipe Fernandes – RA: 242062022 \<br\>
 > Leonardo Tomaz – RA: 240509852
-
-*Data: 16 de junho de 2025*
 
 ```
 ```
