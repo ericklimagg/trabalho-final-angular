@@ -1,0 +1,12 @@
+<h2>Página Inicial com Exemplo de HTTP</h2>
+<p>Esta página faz uma chamada para uma API pública (JSONPlaceholder) e exibe o resultado abaixo.</p>
+
+<div *ngIf="post" class="api-data">
+  <h3>Dados Recebidos da API:</h3>
+  <p><strong>Título:</strong> {{ post.title }}</p>
+  <p><strong>Corpo:</strong> {{ post.body }}</p>
+</div>
+
+<div *ngIf="!post">
+  <p>Carregando dados da API...</p>
+</div>
